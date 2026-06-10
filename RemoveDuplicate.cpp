@@ -25,7 +25,7 @@ int main(){
     for(i = 0; i < count; i++){
         cout<<arr[i]<<" ";
     }
-    cout <<"\n unique elements cout: "<< count << endl;
+    cout <<"\n Unique elements cout: "<< count << endl;
     return 0;
 }
 
