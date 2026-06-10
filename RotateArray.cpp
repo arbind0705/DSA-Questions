@@ -24,7 +24,7 @@ int main(){
     reverse(arr, 0, n - 1);
     reverse(arr, 0, k - 1);
     reverse(arr, k, n - 1);
-    cout << "Rotated array: ";
+    cout << "Rotated array : ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
