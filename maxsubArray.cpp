@@ -8,7 +8,7 @@ int main(){
     cout<<"array size"<<endl;
     cin>>n;
     vector<int> arr(n);
-    cout<<"enter the elements of array"<<endl;
+    cout<<"enter the elements: "<<endl;
     for(i =0;i<n; i++){
         cin>>arr[i];
     }
