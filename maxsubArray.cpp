@@ -4,15 +4,37 @@
 using namespace std;
 
 int main(){
-    
-    int arr[10] = {1,-1,3,2,4, -4,2,-1,7,1};
-
-    int sum =arr[0];
-    int maxsum = arr[0];
-
-    for(int i = 1 ; i <10 ;i++){
-        sum = max(arr[i], sum+arr[i]);
-        maxsum = max(maxsum, sum);
+    int n,j,i;
+    cout<<"array size"<<endl;
+    cin>>n;
+    vector<int> arr(n);
+    cout<<"enter the elements of array"<<endl;
+    for(i =0;i<n; i++){
+        cin>>arr[i];
     }
-    cout<<"max sum of subarrays are: "<<maxsum<<endl;
+
+    vector<int> missing;
+        
+    sort(arr.begin(), arr.end());
+    n = arr.size();
+    int expected = 1;
+    for(int x : arr){
+        while(expected<x){
+            missing.push_back(expected);
+            expected++;
+        }
+        if(expected ==x){
+            expected++;
+        }
+        
+    }
+    while(expected<=n){
+            missing.push_back(expected);
+            expected++;
+        }
+    for(auto x: missing){
+        cout<<x<<" ";
+
+    }
+
 }
