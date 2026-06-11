@@ -48,7 +48,7 @@ int main(){
 
     }
     for(auto triplets: results){
-        cout<<triplets[0]<<" "<<triplets[1]<<" "<<triplets[2]<<endl;
+        cout<<triplets[0]<<" "<<triplets[1]<<" "<<triplets[2];
 
     }
 
