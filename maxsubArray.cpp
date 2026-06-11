@@ -4,12 +4,13 @@
 using namespace std;
 
 int main(){
-    int arr[5] = {1,-1,3,2,4};
+    
+    int arr[10] = {1,-1,3,2,4, -4,2,-1,7,1};
 
     int sum =arr[0];
     int maxsum = arr[0];
 
-    for(int i = 1 ; i <5 ;i++){
+    for(int i = 1 ; i <10 ;i++){
         sum = max(arr[i], sum+arr[i]);
         maxsum = max(maxsum, sum);
     }
