@@ -33,7 +33,7 @@ public:
 };
 
 int main() {
-    vector<int> nums = {4, 3, 2, 7, 8, 2, 3, 1};
+    vector<int> nums = {5, 3, 2, 7, 8, 2, 3, 1};
 
     Solution sol;
     vector<int> result = sol.findDisappearedNumbers(nums);
