@@ -24,7 +24,7 @@ public:
 
 int main()
 {
-    vector<int> nums = {5, 3, 2, 7, 8, 2};
+    vector<int> nums = {5, 3, 2, 7, 8};
     int val = 5;
 
     Solution sol;
