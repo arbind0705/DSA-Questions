@@ -47,9 +47,8 @@ This repository contains solutions to Data Structures and Algorithms (DSA) probl
 * Bit Manipulation
 
 ## 🎯 Goal
-
 To consistently solve problems, strengthen algorithmic thinking, and maintain a structured collection of solutions for future reference.
-
+BY ARBIND MALAVA
 ---
 
 ⭐ Feel free to explore the solutions and follow the journey!
